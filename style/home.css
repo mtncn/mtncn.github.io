@@ -1,0 +1,41 @@
+﻿#slideBox{width: 100%;height: 450px;overflow: hidden;position: relative;z-index: 1;}
+#slideBox #bd{position: absolute;z-index: 100;left:50%;margin-left:-960px;width: 1920px;height: 450px;}
+/*#slideBox #bd li{width: 1680px;height: 482px;}*/
+#slideBox #hd{position: absolute;bottom:25px;z-index: 1000;left: 50%; margin-left: -52px;}
+#slideBox #hd li{background: url('../images/ad_btn2.png') no-repeat center center;width: 16px;height: 16px;float: left;text-align: center;margin:0 3px;cursor: pointer;}
+#slideBox #hd .on{background: url('../images/ad_btn1.png') no-repeat center center;color: #fff;}
+#slideBox .prev,#slideBox .next{display:block;position:absolute;z-index:1;top:50%;margin-top:-30px;left:5%;z-index:99999;width:40px;height:60px;
+background:url(../images/slider-arrow.png) -126px -137px #000 no-repeat;cursor:pointer;filter:alpha(opacity=50);opacity:0.5;display:none;
+}
+#slideBox .next{left:auto;right:5%;background-position:-6px -137px;}
+
+ .homecon{
+	width: 1200px;
+	margin: 20px auto 0px auto;
+	overflow: hidden;
+	border-top:0px solid #E5E5E5;
+	padding-top:10px;color:#555;
+}
+ .homecon dd a{ color:#555;}
+  .homecon dd a:hover{color:#f60}
+.about_home_l{  margin:10px 30px 15px 0;font-size:14px; line-height:180%; width:380px; float:left; padding:0}
+.about_home_m{  margin:10px 30px 15px 0;font-size:14px; line-height:180%; width:380px; float:left; padding:0}
+.about_home_r{  margin:10px 0px 15px 0;font-size:14px; line-height:180%; width:380px; float:left; padding:0}
+
+.about_home_l h2,.about_home_m h2,.about_home_r h2 {margin:0 0 10px 0;padding:0; font-size:18px;  font-weight:400; color:#F60; }
+.about_home_l h2 span a,.about_home_m h2 span a,.about_home_r h2 span a{ float:right; font-size:14px; font-weight:400; color:#999}
+.about_home_l h2 a:hover,.about_home_m h2 a:hover,.about_home_r h2 a:hover{ color:#F60}
+
+.about_home_l img,.about_home_m img,.about_home_r img {margin:0 0 10px 0;}
+.about_home_m dl dd,.about_home_r dl dd {background: url(../images/arrow-grey.gif) no-repeat 0 center; padding-left:10px}
+.about_home_m dl dd span,.about_home_r dl dd span{ float:right; color:#999}
+
+
+.about_home_l more,.about_home_m more,.about_home_r more { text-align:center; display:block}
+.homecon dl dt{ margin:10px 0}
+
+.ClassName{ width:1200px; height:58px; margin:0 auto 20px auto; background:#f6f6f6}
+.ClassName h2{ float:left;line-height:58px; background:#e5e5e5 url(../images/Class_h2.png) no-repeat right center; padding:0 20px 0 20px; font-size:18px; font-weight:400;
+color:#333}
+.ClassName ul { float:left; margin:0 0 0 30px}
+.ClassName ul li{ float:left; margin: 0 40px 0 0; line-height:58px; background:url(../images/list_bg.png) no-repeat left 23px; text-indent:13px}

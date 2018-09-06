@@ -1,0 +1,37 @@
+﻿.container {
+    margin: 0 auto;
+    width:1200px; /*Change to any value and the whole template will adjust to it :) */
+    position: relative;
+    
+}
+.banner{ width:100%; height:180px; }
+.banner h2{ line-height:180px; font-size:28px; color:#FFF; text-indent:-9999em}
+
+ #mainbox{ background-color:#f0f1f3;}
+#searchH1{  }
+#contentbox{ }
+.content_top p{ padding:0px; margin:0px; line-height:20px; margin-top:0px; color:#777; font-size:12px;  text-align:center;}
+.content_top h1{text-align:center;  margin:0px; padding:0px;overflow:hidden; width:100%;font-size:20px; line-height:80px; height:80px; border-bottom:solid  1px #e6e6e6;  }
+#contentbox .services_main{     background-color: #FDFDFD;  box-shadow: 1px 1px 3px #e6e6e6; padding:50px 5%; padding-top:0px}
+#contentbox .contectshow{ margin-top:30px; }
+#contentbox  {  line-height:28px ;}
+h3.smTitle{ height:50px; line-height:50px; padding:0px; margin:0px; font-size:14px; }
+/*about us;*/
+.contectshow p{margin-top:15px;  color:#333; font-size:14px}
+.contectshow dd p{ text-indent:0px;}
+.about-viewmain p{ }
+.about-viewmain p span{color:#ff6e00;}
+.about-viewmain div{ text-indent:2em; margin-top:15px;color:#333; font-size:13px;}
+.about-viewmain div ul{/*margin-left: 75px; margin-top: -26px;*/ margin-top:5px;}
+.about-viewmain div ul li{color:#ff6e00;}
+/*发展历程;*/
+.tenda_histroy{}
+.tenda_histroy dt{}
+.tenda_histroy dt h2{ height:34px; padding-top:28px; background:url(/images/main_icon.png) no-repeat 76px -1182px; width:186px; font-weight:normal; color:#23acd9; font-size:26px; line-height:26px; position:relative; z-index:9999;}
+.tenda_histroy dd{*background:url(/images/main_icon.png) no-repeat -60px -1262px; height:40px; padding-top:50px; padding-left:43px; font-size:14px;
+                  font-size: 14px;height: 26px; margin-left: 137px;padding-left: 40px;padding-top: 26px; *padding-top:26px;/*margin-left:137px;*/ background:url(../images/main_icon.png) no-repeat scroll -60px -1251px; /*background-repeat:no-repeat; background-position-x:-60px;*/ background-position-y:-1251px;}
+.tenda_histroy dt {background:url(/images/main_icon.png) no-repeat 28px -994px;height:53px; padding-top:78px; }
+.tenda_histroy dt strong{ padding-left:38px; font-weight:normal; font-size:19px; color:#23acd9;  display:block; margin-top:-20px;}
+
+/*联系方式 */
+.clear2{ clear:both; font-size:0; line-height:0; width:0; height:0; visibility:hidden;} 
